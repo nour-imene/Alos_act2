@@ -5,7 +5,7 @@ const jsonDataBase = require('./db.json')
 const {body, validationResult} = require('express-validator');
 
 app.get('/', (req, res) => {
-    res.send('salem')
+    res.send('hi')
 })
 
 app.listen(prt, () => {
